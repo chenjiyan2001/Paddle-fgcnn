@@ -1,0 +1,24 @@
+[2022/01/23 16:34:59] root INFO: binary_cross_entropy: 
+[2022/01/23 16:34:59] root INFO: 	mean diff: check passed: True, value: 5.960464477539063e-08
+[2022/01/23 16:34:59] root INFO: diff check passed
+[2022/01/23 16:35:08] root INFO: loss: 
+[2022/01/23 16:35:08] root INFO: 	mean diff: check passed: False, value: 0.00614156061783433
+[2022/01/23 16:35:08] root INFO: diff check failed
+[2022/01/23 16:36:20] root INFO: train: 
+[2022/01/23 16:36:20] root INFO: 	mean diff: check passed: False, value: 0.9872925877571106
+[2022/01/23 16:36:20] root INFO: diff check failed
+[2022/01/23 16:37:42] root INFO: logits: 
+[2022/01/23 16:37:42] root INFO: 	mean diff: check passed: True, value: 2.0265579436795633e-08
+[2022/01/23 16:37:42] root INFO: diff check passed
+[2022/01/23 16:37:51] root INFO: loss: 
+[2022/01/23 16:37:51] root INFO: 	mean diff: check passed: False, value: 0.8712249994277954
+[2022/01/23 16:37:51] root INFO: diff check failed
+[2022/01/23 16:38:32] root INFO: loss: 
+[2022/01/23 16:38:32] root INFO: 	mean diff: check passed: False, value: 0.00032014332828111947
+[2022/01/23 16:38:32] root INFO: diff check failed
+[2022/01/23 16:38:57] root INFO: train: 
+[2022/01/23 16:38:57] root INFO: 	mean diff: check passed: False, value: 0.889396071434021
+[2022/01/23 16:38:57] root INFO: diff check failed
+[2022/01/23 16:39:24] root INFO: loss: 
+[2022/01/23 16:39:24] root INFO: 	mean diff: check passed: False, value: 0.6186138391494751
+[2022/01/23 16:39:24] root INFO: diff check failed

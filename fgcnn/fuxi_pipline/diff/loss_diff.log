@@ -1,0 +1,9 @@
+[2022/02/11 23:25:03] root INFO: train: 
+[2022/02/11 23:25:03] root INFO: 	mean diff: check passed: False, value: 0.8821567296981812
+[2022/02/11 23:25:03] root INFO: diff check failed
+[2022/02/11 23:25:03] root INFO: train: 
+[2022/02/11 23:25:03] root INFO: 	mean diff: check passed: False, value: 0.8821567296981812
+[2022/02/11 23:25:03] root INFO: diff check failed
+2022/02/11 23:25:03] root INFO: train: 
+[2022/02/11 23:25:03] root INFO: 	mean diff: check passed: False, value: 0.8821567296981812
+[2022/02/11 23:25:03] root INFO: diff check failed

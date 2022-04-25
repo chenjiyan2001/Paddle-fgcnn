@@ -1,0 +1,9 @@
+[2021/12/26 19:14:53] root INFO: logits: 
+[2021/12/26 19:14:53] root INFO: 	mean diff: check passed: True, value: 0.0
+[2021/12/26 19:14:53] root INFO: diff check passed
+[2021/12/26 19:14:53] root INFO: binary_cross_entropy: 
+[2021/12/26 19:14:53] root INFO: 	mean diff: check passed: False, value: 0.0012078077998012304
+[2021/12/26 19:14:53] root INFO: diff check failed
+[2021/12/26 19:19:59] root INFO: binary_cross_entropy: 
+[2021/12/26 19:19:59] root INFO: 	mean diff: check passed: True, value: 0.0
+[2021/12/26 19:19:59] root INFO: diff check passed

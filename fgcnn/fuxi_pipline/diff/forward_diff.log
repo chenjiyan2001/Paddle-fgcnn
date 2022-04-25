@@ -1,0 +1,6 @@
+[2022/01/23 16:53:29] root INFO: logits: 
+[2022/01/23 16:53:29] root INFO: 	mean diff: check passed: True, value: 6.254973783370588e-08
+[2022/01/23 16:53:29] root INFO: diff check passed
+[2022/01/23 16:53:38] root INFO: train: 
+[2022/01/23 16:53:38] root INFO: 	mean diff: check passed: False, value: 0.5431084036827087
+[2022/01/23 16:53:38] root INFO: diff check failed

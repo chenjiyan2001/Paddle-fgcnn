@@ -1,0 +1,217 @@
+FGCNN(
+  (fg_embedding): LayerList(
+    (0): EmbeddingLayer(
+      (embedding): Embedding(27, 4, sparse=True, name=C1_fg_emd)
+    )
+    (1): EmbeddingLayer(
+      (embedding): Embedding(92, 4, sparse=True, name=C2_fg_emd)
+    )
+    (2): EmbeddingLayer(
+      (embedding): Embedding(172, 4, sparse=True, name=C3_fg_emd)
+    )
+    (3): EmbeddingLayer(
+      (embedding): Embedding(157, 4, sparse=True, name=C4_fg_emd)
+    )
+    (4): EmbeddingLayer(
+      (embedding): Embedding(12, 4, sparse=True, name=C5_fg_emd)
+    )
+    (5): EmbeddingLayer(
+      (embedding): Embedding(7, 4, sparse=True, name=C6_fg_emd)
+    )
+    (6): EmbeddingLayer(
+      (embedding): Embedding(183, 4, sparse=True, name=C7_fg_emd)
+    )
+    (7): EmbeddingLayer(
+      (embedding): Embedding(19, 4, sparse=True, name=C8_fg_emd)
+    )
+    (8): EmbeddingLayer(
+      (embedding): Embedding(2, 4, sparse=True, name=C9_fg_emd)
+    )
+    (9): EmbeddingLayer(
+      (embedding): Embedding(142, 4, sparse=True, name=C10_fg_emd)
+    )
+    (10): EmbeddingLayer(
+      (embedding): Embedding(173, 4, sparse=True, name=C11_fg_emd)
+    )
+    (11): EmbeddingLayer(
+      (embedding): Embedding(170, 4, sparse=True, name=C12_fg_emd)
+    )
+    (12): EmbeddingLayer(
+      (embedding): Embedding(166, 4, sparse=True, name=C13_fg_emd)
+    )
+    (13): EmbeddingLayer(
+      (embedding): Embedding(14, 4, sparse=True, name=C14_fg_emd)
+    )
+    (14): EmbeddingLayer(
+      (embedding): Embedding(170, 4, sparse=True, name=C15_fg_emd)
+    )
+    (15): EmbeddingLayer(
+      (embedding): Embedding(168, 4, sparse=True, name=C16_fg_emd)
+    )
+    (16): EmbeddingLayer(
+      (embedding): Embedding(9, 4, sparse=True, name=C17_fg_emd)
+    )
+    (17): EmbeddingLayer(
+      (embedding): Embedding(127, 4, sparse=True, name=C18_fg_emd)
+    )
+    (18): EmbeddingLayer(
+      (embedding): Embedding(44, 4, sparse=True, name=C19_fg_emd)
+    )
+    (19): EmbeddingLayer(
+      (embedding): Embedding(4, 4, sparse=True, name=C20_fg_emd)
+    )
+    (20): EmbeddingLayer(
+      (embedding): Embedding(169, 4, sparse=True, name=C21_fg_emd)
+    )
+    (21): EmbeddingLayer(
+      (embedding): Embedding(6, 4, sparse=True, name=C22_fg_emd)
+    )
+    (22): EmbeddingLayer(
+      (embedding): Embedding(10, 4, sparse=True, name=C23_fg_emd)
+    )
+    (23): EmbeddingLayer(
+      (embedding): Embedding(125, 4, sparse=True, name=C24_fg_emd)
+    )
+    (24): EmbeddingLayer(
+      (embedding): Embedding(20, 4, sparse=True, name=C25_fg_emd)
+    )
+    (25): EmbeddingLayer(
+      (embedding): Embedding(90, 4, sparse=True, name=C26_fg_emd)
+    )
+  )
+  (embedding): LayerList(
+    (0): EmbeddingLayer(
+      (embedding): Embedding(27, 4, sparse=True, name=C1_emd)
+    )
+    (1): EmbeddingLayer(
+      (embedding): Embedding(92, 4, sparse=True, name=C2_emd)
+    )
+    (2): EmbeddingLayer(
+      (embedding): Embedding(172, 4, sparse=True, name=C3_emd)
+    )
+    (3): EmbeddingLayer(
+      (embedding): Embedding(157, 4, sparse=True, name=C4_emd)
+    )
+    (4): EmbeddingLayer(
+      (embedding): Embedding(12, 4, sparse=True, name=C5_emd)
+    )
+    (5): EmbeddingLayer(
+      (embedding): Embedding(7, 4, sparse=True, name=C6_emd)
+    )
+    (6): EmbeddingLayer(
+      (embedding): Embedding(183, 4, sparse=True, name=C7_emd)
+    )
+    (7): EmbeddingLayer(
+      (embedding): Embedding(19, 4, sparse=True, name=C8_emd)
+    )
+    (8): EmbeddingLayer(
+      (embedding): Embedding(2, 4, sparse=True, name=C9_emd)
+    )
+    (9): EmbeddingLayer(
+      (embedding): Embedding(142, 4, sparse=True, name=C10_emd)
+    )
+    (10): EmbeddingLayer(
+      (embedding): Embedding(173, 4, sparse=True, name=C11_emd)
+    )
+    (11): EmbeddingLayer(
+      (embedding): Embedding(170, 4, sparse=True, name=C12_emd)
+    )
+    (12): EmbeddingLayer(
+      (embedding): Embedding(166, 4, sparse=True, name=C13_emd)
+    )
+    (13): EmbeddingLayer(
+      (embedding): Embedding(14, 4, sparse=True, name=C14_emd)
+    )
+    (14): EmbeddingLayer(
+      (embedding): Embedding(170, 4, sparse=True, name=C15_emd)
+    )
+    (15): EmbeddingLayer(
+      (embedding): Embedding(168, 4, sparse=True, name=C16_emd)
+    )
+    (16): EmbeddingLayer(
+      (embedding): Embedding(9, 4, sparse=True, name=C17_emd)
+    )
+    (17): EmbeddingLayer(
+      (embedding): Embedding(127, 4, sparse=True, name=C18_emd)
+    )
+    (18): EmbeddingLayer(
+      (embedding): Embedding(44, 4, sparse=True, name=C19_emd)
+    )
+    (19): EmbeddingLayer(
+      (embedding): Embedding(4, 4, sparse=True, name=C20_emd)
+    )
+    (20): EmbeddingLayer(
+      (embedding): Embedding(169, 4, sparse=True, name=C21_emd)
+    )
+    (21): EmbeddingLayer(
+      (embedding): Embedding(6, 4, sparse=True, name=C22_emd)
+    )
+    (22): EmbeddingLayer(
+      (embedding): Embedding(10, 4, sparse=True, name=C23_emd)
+    )
+    (23): EmbeddingLayer(
+      (embedding): Embedding(125, 4, sparse=True, name=C24_emd)
+    )
+    (24): EmbeddingLayer(
+      (embedding): Embedding(20, 4, sparse=True, name=C25_emd)
+    )
+    (25): EmbeddingLayer(
+      (embedding): Embedding(90, 4, sparse=True, name=C26_emd)
+    )
+  )
+  (fgcnn): FGCNNLayer(
+    (conv_pooling): LayerList(
+      (0): Sequential(
+        (0): Conv2D(1, 14, kernel_size=[7, 1], padding=(3, 0), data_format=NCHW)
+        (1): Tanh()
+        (2): MaxPool2D(kernel_size=(2, 1), stride=(2, 1), padding=0)
+      )
+      (1): Sequential(
+        (0): Conv2D(14, 16, kernel_size=[7, 1], padding=(3, 0), data_format=NCHW)
+        (1): Tanh()
+        (2): MaxPool2D(kernel_size=(2, 1), stride=(2, 1), padding=0)
+      )
+      (2): Sequential(
+        (0): Conv2D(16, 18, kernel_size=[7, 1], padding=(3, 0), data_format=NCHW)
+        (1): Tanh()
+        (2): MaxPool2D(kernel_size=(2, 1), stride=(2, 1), padding=0)
+      )
+      (3): Sequential(
+        (0): Conv2D(18, 20, kernel_size=[7, 1], padding=(3, 0), data_format=NCHW)
+        (1): Tanh()
+        (2): MaxPool2D(kernel_size=(2, 1), stride=(2, 1), padding=0)
+      )
+    )
+    (recombination): LayerList(
+      (0): Sequential(
+        (0): Linear(in_features=728, out_features=156, dtype=float32, name=fgcnn_linear_0)
+        (1): Tanh()
+      )
+      (1): Sequential(
+        (0): Linear(in_features=384, out_features=72, dtype=float32, name=fgcnn_linear_1)
+        (1): Tanh()
+      )
+      (2): Sequential(
+        (0): Linear(in_features=216, out_features=36, dtype=float32, name=fgcnn_linear_2)
+        (1): Tanh()
+      )
+      (3): Sequential(
+        (0): Linear(in_features=80, out_features=12, dtype=float32, name=fgcnn_linear_3)
+        (1): Tanh()
+      )
+    )
+  )
+  (dnn): DNNLayer(
+    (dropout): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+    (linears): LayerList(
+      (0): Sequential(
+        (0): Linear(in_features=4845, out_features=128, dtype=float32, name=dnn_0)
+        (1): BatchNorm()
+      )
+    )
+    (activation_layers): LayerList(
+      (0): ReLU(name=128)
+    )
+  )
+  (fc_linear): Linear(in_features=128, out_features=1, dtype=float32)
+)

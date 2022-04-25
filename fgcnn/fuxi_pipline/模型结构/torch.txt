@@ -1,0 +1,103 @@
+fuxi_FGCNN(
+  (embedding_layer): EmbeddingLayer(
+    (embedding_layer): EmbeddingDictLayer(
+      (embedding_layer): ModuleDict(
+        (userid): Embedding(25, 10)
+        (adgroup_id): Embedding(95, 10)
+        (pid): Embedding(3, 10)
+        (cate_id): Embedding(48, 10)
+        (campaign_id): Embedding(98, 10)
+        (customer): Embedding(97, 10)
+        (brand): Embedding(66, 10)
+        (cms_segid): Embedding(10, 10)
+        (cms_group_id): Embedding(10, 10)
+        (final_gender_code): Embedding(3, 10)
+        (age_level): Embedding(6, 10)
+        (pvalue_level): Embedding(3, 10)
+        (shopping_level): Embedding(4, 10)
+        (occupation): Embedding(3, 10)
+      )
+      (seq_encoder_layer): ModuleDict()
+      (embedding_hooks): ModuleDict()
+    )
+  )
+  (fg_embedding_layer): EmbeddingLayer(
+    (embedding_layer): EmbeddingDictLayer(
+      (embedding_layer): ModuleDict(
+        (userid): Embedding(25, 10)
+        (adgroup_id): Embedding(95, 10)
+        (pid): Embedding(3, 10)
+        (cate_id): Embedding(48, 10)
+        (campaign_id): Embedding(98, 10)
+        (customer): Embedding(97, 10)
+        (brand): Embedding(66, 10)
+        (cms_segid): Embedding(10, 10)
+        (cms_group_id): Embedding(10, 10)
+        (final_gender_code): Embedding(3, 10)
+        (age_level): Embedding(6, 10)
+        (pvalue_level): Embedding(3, 10)
+        (shopping_level): Embedding(4, 10)
+        (occupation): Embedding(3, 10)
+      )
+      (seq_encoder_layer): ModuleDict()
+      (embedding_hooks): ModuleDict()
+    )
+  )
+  (fgcnn_layer): FGCNN_Layer(
+    (conv_layers): ModuleList(
+      (0): Sequential(
+        (0): Conv2d(1, 14, kernel_size=(7, 1), stride=(1, 1), padding=(3, 0))
+        (1): BatchNorm2d(14, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (2): ReLU()
+        (3): MaxPool2d(kernel_size=(2, 1), stride=(2, 1), padding=(0, 0), dilation=1, ceil_mode=False)
+      )
+      (1): Sequential(
+        (0): Conv2d(14, 16, kernel_size=(7, 1), stride=(1, 1), padding=(3, 0))
+        (1): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (2): ReLU()
+        (3): MaxPool2d(kernel_size=(2, 1), stride=(2, 1), padding=(1, 0), dilation=1, ceil_mode=False)
+      )
+      (2): Sequential(
+        (0): Conv2d(16, 18, kernel_size=(7, 1), stride=(1, 1), padding=(3, 0))
+        (1): BatchNorm2d(18, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (2): ReLU()
+        (3): MaxPool2d(kernel_size=(2, 1), stride=(2, 1), padding=(0, 0), dilation=1, ceil_mode=False)
+      )
+      (3): Sequential(
+        (0): Conv2d(18, 20, kernel_size=(7, 1), stride=(1, 1), padding=(3, 0))
+        (1): BatchNorm2d(20, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (2): ReLU()
+        (3): MaxPool2d(kernel_size=(2, 1), stride=(2, 1), padding=(0, 0), dilation=1, ceil_mode=False)
+      )
+    )
+    (recombine_layers): ModuleList(
+      (0): Sequential(
+        (0): Linear(in_features=980, out_features=210, bias=True)
+        (1): ReLU()
+      )
+      (1): Sequential(
+        (0): Linear(in_features=640, out_features=120, bias=True)
+        (1): ReLU()
+      )
+      (2): Sequential(
+        (0): Linear(in_features=360, out_features=60, bias=True)
+        (1): ReLU()
+      )
+      (3): Sequential(
+        (0): Linear(in_features=200, out_features=30, bias=True)
+        (1): ReLU()
+      )
+    )
+  )
+  (inner_product_layer): InnerProductLayer()
+  (dnn): MLP_Layer(
+    (dnn): Sequential(
+      (0): Linear(in_features=2100, out_features=128, bias=True)
+      (1): ReLU()
+      (2): Linear(in_features=128, out_features=64, bias=True)
+      (3): ReLU()
+      (4): Linear(in_features=64, out_features=1, bias=True)
+      (5): Sigmoid()
+    )
+  )
+)
