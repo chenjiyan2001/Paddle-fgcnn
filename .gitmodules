@@ -1,0 +1,3 @@
+[submodule "fgcnn/fgcnn/FuxiCTR"]
+	path = fgcnn/fgcnn/FuxiCTR
+	url = https://github.com/xue-pai/FuxiCTR
