@@ -37,7 +37,7 @@
 其中```<label>```表示广告是否被点击，点击用1表示，未点击用0表示。```<integer feature>```代表数值特征（连续特征），共有13个连续特征。```<categorical feature>```代表分类特征（离散特征），共有26个离散特征。相邻两个特征用```\t```分隔，缺失特征用空格表示。测试集中```<label>```特征已被移除。
 
 ### 一键下载训练及测试数据
-从https://aistudio.baidu.com/aistudio/datasetdetail/148156下载train.h5与valid.h5文件，作为本项目的数据集。train.h5文件放入PaddleRec/models/rank/fgcnn/data/train目录下，test.h5文件放入PaddleRec/models/rank/fgcnn/data/test目录下。
+从 https://aistudio.baidu.com/aistudio/datasetdetail/148156 下载train.h5与valid.h5文件，作为本项目的数据集。train.h5文件放入PaddleRec/models/rank/fgcnn/data/train目录下，valid.h5文件放入PaddleRec/models/rank/fgcnn/data/test目录下。
 
 ## 运行环境
 PaddlePaddle>=2.0
