@@ -53,9 +53,9 @@ os : windows/linux/macos
 # 进入模型目录
 # cd models/rank/fgcnn # 在任意目录均可运行
 # 动态图训练
-python -u ../../../tools/trainer.py -m config.yaml # 全量数据运行config_bigdata.yaml 
+python -u ../../../tools/trainer.py -m config_bigdata.yaml # 全量数据运行config_bigdata.yaml 
 # 动态图预测
-python -u ../../../tools/infer.py -m config.yaml 
+python -u ../../../tools/infer.py -m config_bigdata.yaml
 
 
 ## 模型组网
