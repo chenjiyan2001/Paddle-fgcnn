@@ -1,12 +1,28 @@
-[2022/02/11 23:17:00] root INFO: loss: 
-[2022/02/11 23:17:00] root INFO: 	mean diff: check passed: False, value: 3.460049629211426e-05
-[2022/02/11 23:17:00] root INFO: diff check failed
-[2022/02/11 23:17:14] root INFO: train: 
-[2022/02/11 23:17:14] root INFO: 	mean diff: check passed: False, value: 0.850678026676178
-[2022/02/11 23:17:14] root INFO: diff check failed
-[2022/02/11 23:22:31] root INFO: train: 
-[2022/02/11 23:22:31] root INFO: 	mean diff: check passed: False, value: 0.6183432340621948
-[2022/02/11 23:22:31] root INFO: diff check failed
-[2022/02/11 23:25:03] root INFO: train: 
-[2022/02/11 23:25:03] root INFO: 	mean diff: check passed: False, value: 0.8821567296981812
-[2022/02/11 23:25:03] root INFO: diff check failed
+[2022/05/23 18:42:21] root INFO: loss: 
+[2022/05/23 18:42:21] root INFO: 	mean diff: check passed: True, value: 0.0
+[2022/05/23 18:42:21] root INFO: diff check passed
+[2022/05/23 18:42:48] root INFO: train: 
+[2022/05/23 18:42:48] root INFO: 	mean diff: check passed: False, value: 0.7741665840148926
+[2022/05/23 18:42:48] root INFO: diff check failed
+[2022/05/23 18:44:26] root INFO: train: 
+[2022/05/23 18:44:26] root INFO: 	mean diff: check passed: False, value: 0.7680263519287109
+[2022/05/23 18:44:26] root INFO: diff check failed
+[2022/05/23 18:48:48] root INFO: train: 
+[2022/05/23 18:48:48] root INFO: 	mean diff: check passed: False, value: 0.7680263519287109
+[2022/05/23 18:48:49] root INFO: diff check failed
+[2022/05/23 19:15:50] root INFO: train: 
+[2022/05/23 19:15:50] root INFO: 	mean diff: check passed: False, value: 0.7680262327194214
+[2022/05/23 19:15:50] root INFO: diff check failed
+sed
+[2022/05/23 18:42:48] root INFO: train: 
+[2022/05/23 18:42:48] root INFO: 	mean diff: check passed: False, value: 0.7741665840148926
+[2022/05/23 18:42:48] root INFO: diff check failed
+[2022/05/23 18:44:26] root INFO: train: 
+[2022/05/23 18:44:26] root INFO: 	mean diff: check passed: False, value: 0.7680263519287109
+[2022/05/23 18:44:26] root INFO: diff check failed
+[2022/05/23 18:48:48] root INFO: train: 
+[2022/05/23 18:48:48] root INFO: 	mean diff: check passed: False, value: 0.7680263519287109
+[2022/05/23 18:48:49] root INFO: diff check failed
+[2022/05/23 19:15:50] root INFO: train: 
+[2022/05/23 19:15:50] root INFO: 	mean diff: check passed: False, value: 0.7680262327194214
+[2022/05/23 19:15:50] root INFO: diff check failed

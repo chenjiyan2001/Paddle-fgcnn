@@ -1,1 +1,0 @@
-pip install tables;rm -rf train test;mkdir train test;python get_data.py
