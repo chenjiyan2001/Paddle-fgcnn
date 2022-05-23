@@ -1,4 +1,4 @@
-# Copyright (c) 2020 PaddlePaddle Authors. All Rights Reserved.
+# Copyright (c) 2022 PaddlePaddle Authors. All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -24,10 +24,6 @@ class FGCNN(nn.Layer):
                  feature_name, feature_dim,dense_num_field, conv_kernel_width,
                  conv_filters, new_maps, pooling_width, stride,
                  dnn_hidden_units, dnn_dropout):
-        '''
-        Parameters
-            vocab_size - 
-        '''
         super(FGCNN, self).__init__()
         self.sparse_num_field = sparse_num_field
         self.dense_num_field = dense_num_field
@@ -131,7 +127,6 @@ class FGCNNLayer(nn.Layer):
                     out_features=self.pooling_shape[i] * self.embedding_size * self.new_maps[i],
                     name='fgcnn_linear_%d' % i),
                 nn.Tanh()
-                # nn.ReLU()
             ) for i in range(len(self.filters))])
 
     def forward(self, inputs):
@@ -187,11 +182,7 @@ class DNNLayer(nn.Layer):
         return inputs
 
 class InnerProductLayer(nn.Layer):
-    """ output: product_sum_pooling (bs x 1), 
-                Bi_interaction_pooling (bs * dim), 
-                inner_product (bs x f2/2), 
-                elementwise_product (bs x f2/2 x emb_dim)
-    """
+
     def __init__(self, num_fields=None):
         super(InnerProductLayer, self).__init__()
         if num_fields is None:

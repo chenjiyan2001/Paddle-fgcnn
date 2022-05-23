@@ -13,19 +13,22 @@
 - [快速开始](#快速开始)
 - [模型组网](#模型组网)
 - [效果复现](#效果复现)
-- [进阶使用](#进阶使用)
-- [FAQ](#FAQ)
 
 ## 模型简介
 `CTR(Click Through Rate)`，即点击率，是“推荐系统/计算广告”等领域的重要指标，对其进行预估是商品推送/广告投放等决策的基础。简单来说，CTR预估对每次广告的点击情况做出预测，预测用户是点击还是不点击。CTR预估模型综合考虑各种因素、特征，在大量历史数据上训练，最终对商业决策提供帮助。本模型实现了下述论文中的DeepAndCross模型：
 
 ```text
-@inproceedings{DeepAndCross,
-  title={DeepAndCross: Deep & Cross Network for Ad Click Predictions},
-  author={Ruoxi Wang, Bin Fu, Gang Fu, Mingliang Wang},
-  year={2017}
+@inproceedings{FGCNN,
+  title={Feature Generation by Convolutional Neural Network for Click-Through Rate Prediction},
+  author={Bin Liu, Ruiming Tang, Yingzhi Chen, Jinkai Yu, Huifeng Guo, Yuzhou Zhang},
+  year={2019}
 }
+> Jieming Zhu, Jinyang Liu, Shuai Yang, Qi Zhang, Xiuqiang He. [Open Benchmarking for Click-Through Rate Prediction](https://arxiv.org/abs/2009.05794). *The 30th ACM International Conference on Information and Knowledge Management (CIKM)*, 2021. [[Bibtex](https://dblp.org/rec/conf/cikm/ZhuLYZH21.html?view=bibtex)]
+
+> Jieming Zhu, Kelong Mao, Quanyu Dai, Liangcai Su, Rong Ma, Jinyang Liu, Guohao Cai, Zhicheng Dou, Xi Xiao, Rui Zhang. [BARS: Towards Open Benchmarking for Recommender Systems](https://arxiv.org/pdf/2205.09626.pdf). *The 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)*, 2022. [Bibtex]
+
 ```
+#
 
 ## 数据准备
 ### 数据来源
@@ -60,7 +63,7 @@ python -u ../../../tools/infer.py -m config_bigdata.yaml
 
 ## 模型组网
 
-### Loss及Auc计算
+模型，评估指标，优化器，训练等对齐见 fgcnn/fuxi_pipline/fuxi.ipynb，日志与npy文件见Step1，Step2，Step4，Step5以及Diff目录。
 
 ## 效果复现
 为了方便使用者能够快速的跑通每一个模型，我们在每个模型下都提供了样例数据。如果需要复现readme中的效果,请按如下步骤依次操作即可。
