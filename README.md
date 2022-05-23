@@ -59,7 +59,7 @@ os : windows/linux/macos
 python -u ../../../tools/trainer.py -m config_bigdata.yaml # 全量数据运行config_bigdata.yaml 
 # 动态图预测
 python -u ../../../tools/infer.py -m config_bigdata.yaml
-
+```
 
 ## 模型组网
 
